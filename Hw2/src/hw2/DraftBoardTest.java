@@ -58,8 +58,8 @@ class DraftBoardTest {
         assertTrue(bestPlayer.toString().equals("Marcus Semien"));
 
         filters = new ArrayList<>();
-        filters.add(ag);
         filters.add(pf);
+        filters.add(ag);
         bestPlayer = board.getBestAvailablePlayer(filters);
         assertTrue(bestPlayer.toString().equals("Marcus Semien"));
     }
