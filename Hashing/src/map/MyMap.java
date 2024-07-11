@@ -26,7 +26,7 @@ public class MyMap<K, V> {
         return null;
     }
 
-    private void resize(){
+    public void resize(){
         // TODO
     }
 }
